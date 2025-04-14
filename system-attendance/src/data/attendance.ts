@@ -1,0 +1,78 @@
+import { Attendance } from '../types/attendance'
+
+export const attendanceData: Attendance[] = [
+    {
+        id: 1,
+        empleadoId: 1,
+        empleadoName: "Juan Pérez",
+        date: "2023-04-13",
+        checkIn: "08:02:34",
+        checkOut: "17:05:22",
+        status: "Puntual",
+    },
+    {
+        id: 2,
+        empleadoId: 2,
+        empleadoName: "María García",
+        date: "2023-04-13",
+        checkIn: "08:15:10",
+        checkOut: "17:30:45",
+        status: "Tardanza",
+    },
+    {
+        id: 3,
+        empleadoId: 3,
+        empleadoName: "Carlos López",
+        date: "2023-04-13",
+        checkIn: "07:55:23",
+        checkOut: "17:00:11",
+        status: "Puntual",
+    },
+    {
+        id: 4,
+        empleadoId: 1,
+        empleadoName: "Juan Pérez",
+        date: "2023-04-12",
+        checkIn: "08:01:45",
+        checkOut: "17:03:22",
+        status: "Puntual",
+    },
+    {
+        id: 5,
+        empleadoId: 2,
+        empleadoName: "María García",
+        date: "2023-04-12",
+        checkIn: "08:30:10",
+        checkOut: "17:30:45",
+        status: "Tardanza",
+    },
+    {
+        id: 6,
+        empleadoId: 4,
+        empleadoName: "Ana Martínez",
+        date: "2023-04-12",
+        checkIn: "09:15:23",
+        checkOut: "17:45:11",
+        status: "Tardanza",
+    },
+    {
+        id: 7,
+        empleadoId: 5,
+        empleadoName: "Roberto Sánchez",
+        date: "2023-04-12",
+        checkIn: "08:05:23",
+        checkOut: "17:10:11",
+        status: "Puntual",
+    },
+    {
+        id: 8,
+        empleadoId: 6,
+        empleadoName: "Laura Rodríguez",
+        date: "2023-04-12",
+        checkIn: "08:00:23",
+        checkOut: "17:00:11",
+        status: "Puntual",
+    },
+]
+
+export default attendanceData
